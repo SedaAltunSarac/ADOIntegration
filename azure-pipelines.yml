@@ -1,4 +1,11 @@
 # Maven
+- task: testproject-run@1
+  inputs:
+    projectID: '7g1QpsAcjEeZukNms0P7Eg'
+    jobID: 'w6-6fggzhUqt4D-IZxg6KA'
+    authKey: 'CU4M6msTc1Vr8S5ytt29VsY9mzL5YrCZ-KzK3qZlIp41'
+    expectedReturnCode: '200'
+    timeout: '30'
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
